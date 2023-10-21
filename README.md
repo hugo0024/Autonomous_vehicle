@@ -1,6 +1,8 @@
 # Autonomous Driving Car Using Deep Learning
 This repository contains the research project on autonomous driving cars using deep learning. The project explores the possibilities of using various machine learning models, including self-trained and pre-trained models, to simulate self-driving capabilities on the Picar-V from SunFounder.
 
+![Output sample](https://github.com/hugo0024/autonomous_vehicle/blob/main/gifs/sample.gif)
+
 # Methodology
 1. Data Preprocessing: The dataset, consisting of 13,798 images along with the corresponding target car response (speed and steering angle), is inspected and corrupted image files are removed. The steering angles and speeds are normalized between 0 and 1.
 2. Image Data Augmentation: To reduce overfitting and improve model performance, image data augmentation techniques such as zooming, panning, brightness adjustment, blurring, and flipping are applied randomly to the training data.
